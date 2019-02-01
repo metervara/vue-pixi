@@ -22,10 +22,10 @@
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --target lib --name vue-pixi ./src/index.js",
     "lint": "vue-cli-service lint",
-    "publish": "npx np", 
+    "publish": "npx np",
     "prepare": "npm run build"
   },
-  "main": "./dist/vue-pixi.common.js",
+  "main": "./src/index.js",
   "dependencies": {
     "pixi.js": "^4.8.1",
     "vue": "^2.5.17"
